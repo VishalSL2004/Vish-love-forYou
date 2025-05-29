@@ -20,7 +20,7 @@ function startGame() {
     alert("Please enter your name!");
     return;
   }
-
+ document.getElementById('bgMusic').play();
   userName = name;
   document.getElementById('inputSection').style.display = 'none';
   document.getElementById('quoteSection').style.display = 'block';
